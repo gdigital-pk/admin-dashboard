@@ -4,6 +4,7 @@ import bcrypt from "bcryptjs";
 import { connectToDatabase } from "@/lib/db";
 import { User } from "@/lib/models/User";
 
+console.log("line7", )
 export const authOptions: NextAuthOptions = {
   session: { strategy: "jwt" },
   pages: {
